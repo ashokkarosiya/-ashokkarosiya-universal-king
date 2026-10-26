@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok Karosiya Universal King Digital Technology</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0b0f19;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            color: #ff9933;
+            text-shadow: 0 0 10px rgba(255, 153, 51, 0.5);
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .chakra-container {
+            position: relative;
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            background: conic-gradient(#ff9933 0deg 120deg, #ffffff 120deg 240deg, #138808 240deg 360deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+            animation: rotateChakra 10s linear infinite;
+            margin-bottom: 25px;
+        }
+        @keyframes rotateChakra {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .ashok-chakra-inner {
+            width: 180px;
+            height: 180px;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid #000080;
+            box-shadow: inset 0 0 15px rgba(0, 0, 128, 0.4);
+        }
+        .wheel-icon {
+            font-size: 65px;
+            color: #000080;
+            animation: rotateChakra 15s linear infinite reverse;
+        }
+        .upload-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px 25px;
+            border-radius: 12px;
+            border: 1px dashed rgba(255, 255, 255, 0.3);
+            margin-top: 10px;
+        }
+        input[type="file"] {
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>अशोक करोसिया</h1>
+    <h2>Universal King Digital Technology</h2>
+
+    <div class="chakra-container">
+        <div class="ashok-chakra-inner">
+            <div class="wheel-icon">☸</div>
+        </div>
+    </div>
+
+    <div class="upload-box">
+        <p style="margin: 0 0 10px 0; font-size: 0.9rem; color: #aaa;">अपनी प्रोफाइल फोटो यहाँ जोड़ें:</p>
+        <input type="file" accept="image/*">
+    </div>
+
+</body>
+</html>
